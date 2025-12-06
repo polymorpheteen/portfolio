@@ -1,0 +1,62 @@
+:root {
+    --body-margin-left: 24px;
+    --body-margin-right: 24px;
+    --footer-height: 48px;
+
+    --main-font: "Inter", sans-serif;
+    --italic-font: "Newsreader", serif;
+
+    --background-color: #111111;
+    --header-color: #eeeeee;
+    --text-color: #b4b4b4;
+    --accent-color: #727272;
+    --mono5: #e8e8e8;
+}
+
+/* Reset settings */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scrollbar-width: thin;
+    scrollbar-color: var(--mono5) transparent;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+button {
+    background: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+#root {
+    min-height: 100%;
+    padding-left: var(--body-margin-left);
+    padding-right: var(--body-margin-right);
+}
