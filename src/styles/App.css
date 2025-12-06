@@ -10,8 +10,19 @@ h4 {
     color: var(--header-color);
 }
 
-p {
+p,
+a,
+a:hover {
     color: var(--text-color);
+}
+
+a {
+    text-decoration-color: var(--underline-color);
+    transition: text-decoration-color 0.2s ease;
+}
+
+a:hover {
+    text-decoration-color: var(--underline-color-hover);
 }
 
 main {

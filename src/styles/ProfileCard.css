@@ -1,11 +1,11 @@
-header {
+.info-card {
     display: flex;
     gap: 0.9rem;
 }
 
 .profile-info h2,
 .profile-info p {
-    font-size: 1rem;
+    font-size: var(--web-font-size);
 }
 
 .profile-info h2 {
