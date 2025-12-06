@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    gap: 0.9rem;
+}
+
+.profile-info h2,
+.profile-info p {
+    font-size: 1rem;
+}
+
+.profile-info h2 {
+    font-weight: 400;
+}
+
+.profile-picture {
+    width: 52px;
+    border-radius: 50%;
+}
