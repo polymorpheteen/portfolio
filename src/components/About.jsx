@@ -2,7 +2,7 @@ import '../styles/About.css'
 
 export default function About() {
   return (
-    <div className="about-me">
+    <div className="about-me" data-animate style={{ '--stagger': 1 }}>
       <p>
         Hi! My name is Marwa, I'm a recent computer science graduate from{' '}
         <a className="uni-link" href="#">
