@@ -1,0 +1,21 @@
+.section-item {
+    min-height: 84px;
+}
+
+.section-item h2 {
+    font-size: var(--web-font-size);
+    font-weight: 400;
+}
+
+.section-link {
+    color: var(--header-color);
+}
+
+.section-link:hover {
+    color: var(--header-color);
+}
+
+.section-item p {
+    padding-top: 0.5rem;
+    color: var(--accent-color);
+}

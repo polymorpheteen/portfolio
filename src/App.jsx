@@ -1,4 +1,5 @@
 import Header from './components/Header'
+import SectionHeader from './components/SectionHeader'
 import './styles/App.css'
 
 export default function App() {
@@ -6,6 +7,7 @@ export default function App() {
     <main>
       <div className="main-grid">
         <Header />
+        <SectionHeader />
       </div>
     </main>
   )
