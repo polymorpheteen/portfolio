@@ -1,6 +1,11 @@
 body {
     font-family: var(--main-font);
     background-color: var(--background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
 }
 
 h1,
