@@ -1,6 +1,7 @@
 import Header from './components/Header'
 import SectionHeader from './components/SectionHeader'
 import Connect from './components/Connect'
+import FindMe from './components/FindMe'
 import './styles/App.css'
 
 export default function App() {
@@ -10,6 +11,7 @@ export default function App() {
         <Header />
         <SectionHeader />
         <Connect />
+        <FindMe />
       </div>
     </main>
   )

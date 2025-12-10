@@ -33,7 +33,7 @@ a:hover {
 main {
     min-height: calc(100vh - var(--footer-height));
     max-width: 67rem;
-    padding: 8rem 0;
+    padding: 128px 0;
 }
 
 .main-grid {

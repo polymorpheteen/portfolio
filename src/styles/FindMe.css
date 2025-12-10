@@ -1,0 +1,42 @@
+.find-me-section {
+    padding-top: 2rem;
+}
+
+.containers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 60px 60px;
+    gap: 0.5rem;
+}
+
+.containers a {
+    text-decoration: none;
+}
+
+.find-me-section h1 {
+    font-family: "NewsReader", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-style: italic;
+    padding-bottom: 0.9rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: var(--background-color-container);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: border 0.4s ease;
+}
+
+.container:hover {
+    border: 1px solid var(--accent-color);
+}
+
+.container h2 {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
