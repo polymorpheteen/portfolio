@@ -1,0 +1,32 @@
+.socials-section {
+    display: flex;
+    align-items: center;
+    padding: 0.9rem 0.5rem;
+}
+
+.socials-section span {
+    display: flex;
+    align-items: center;
+}
+
+.socials-section a {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.socials-section span:not(:last-child)::after {
+    content: " | ";
+    margin: 0 1.25rem;
+    color: var(--accent-color);
+}
+
+.socials-section p {
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+svg {
+    stroke: var(--text-color);
+    fill: var(--text-color);
+}

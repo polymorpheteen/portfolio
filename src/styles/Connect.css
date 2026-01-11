@@ -1,6 +1,6 @@
 .connect-section h1 {
     font-family: var(--main-font);
-    font-size: 1.3rem;
+    font-size: var(--header-font-size);
     font-weight: 600;
     padding-bottom: 0.9rem;
 }

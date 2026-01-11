@@ -41,5 +41,5 @@ main {
     padding: 0 0.8rem;
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
+    gap: 2rem;
 }
