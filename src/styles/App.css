@@ -1,9 +1,6 @@
 body {
     font-family: var(--main-font);
     background-color: var(--background-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
     margin: 0;
 }
@@ -32,8 +29,9 @@ a:hover {
 
 main {
     min-height: calc(100vh - var(--footer-height));
-    max-width: 67rem;
+    max-width: 1072px;
     padding: 128px 0;
+    margin: 0 auto;
 }
 
 .main-grid {
@@ -41,4 +39,7 @@ main {
     margin: 0 auto;
     max-width: 640px;
     padding: 0 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
 }

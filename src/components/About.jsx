@@ -4,8 +4,8 @@ export default function About() {
   return (
     <div className="about-me" data-animate style={{ '--stagger': 3 }}>
       <p>
-        Hi! My name is Marwa, I'm a recent computer science graduate from
-        Northwestern Polytechnical University.
+        Hi! My name is Marwa, I'm a Full-stack developer and a recent computer
+        science graduate from Northwestern Polytechnical University.
       </p>
 
       <p>

@@ -9,7 +9,7 @@ export default function Connect() {
       <p data-animate style={{ '--stagger': 3 }}>
         Reach me at{' '}
         <a href="mailto:marwalala18@gmail.com">marwalala18@gmail.com</a>, or any
-        of my socials.
+        of my socials down below.
       </p>
     </div>
   )

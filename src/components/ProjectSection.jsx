@@ -8,11 +8,11 @@ export default function ProjectSection() {
     { title: 'Project C', description: 'Another one' },
   ]
   return (
-    <div className="column">
+    <div className="project-section">
       <h1 className="section-title" data-animate style={{ '--stagger': 2 }}>
-        Projects
+        Featured Projects
       </h1>
-      <div className="items">
+      <div className="project-items">
         {items.map((item, index) => (
           <SectionItem
             key={index}

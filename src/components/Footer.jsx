@@ -1,3 +1,9 @@
+import '../styles/Footer.css'
+
 export default function Footer() {
-  return <footer></footer>
+  return (
+    <footer className="footer">
+      <span>&copy; 2026 Polymorpheteen </span>
+    </footer>
+  )
 }
