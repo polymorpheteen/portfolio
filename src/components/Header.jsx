@@ -4,10 +4,10 @@ import Socials from './Socials'
 
 export default function Header() {
   return (
-    <header>
+    <section>
       <ProfileCard />
       <About />
       <Socials />
-    </header>
+    </section>
   )
 }

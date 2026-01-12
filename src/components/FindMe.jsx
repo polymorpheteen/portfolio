@@ -2,7 +2,7 @@ import '../styles/FindMe.css'
 
 export default function FindMe() {
   return (
-    <div className="find-me-section">
+    <section className="find-me-section">
       <h1 data-animate style={{ '--stagger': 2 }}>
         Find Me
       </h1>
@@ -74,6 +74,6 @@ export default function FindMe() {
           </div>
         </a>
       </div>
-    </div>
+    </section>
   )
 }
