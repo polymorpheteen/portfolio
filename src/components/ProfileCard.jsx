@@ -18,7 +18,7 @@ export default function ProfileCard() {
         <p data-animate style={{ '--stagger': 2 }}>
           Fullstack Engineer
         </p>
-        <p className="location-info">
+        <p className="location-info" data-animate style={{ '--stagger': 2 }}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="17"

@@ -18,11 +18,11 @@ export default function ProjectSection() {
       link: 'https://github.com/polymorpheteen/members-only',
     },
     {
-      id: 'memory-card',
-      title: 'Memory Card',
+      id: 'file-uploader',
+      title: 'File Uploader',
       description:
-        'An interactive web-based game built with React that challenges players to test their memory skills.',
-      link: 'https://github.com/polymorpheteen/memory-card',
+        'A full-stack web application that allows users to upload, store, and manage their files securely.',
+      link: 'https://github.com/polymorpheteen/file-uploader',
     },
   ]
   return (
